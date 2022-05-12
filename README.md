@@ -1,7 +1,7 @@
 Coverage: 34%
 # Project Title
 
-One Paragraph of project description goes here
+This project is a simulation of a store environment where users can input details of customers, items, orders and order items. 
 
 ## Getting Started
 
