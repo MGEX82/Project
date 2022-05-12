@@ -1,5 +1,5 @@
 Coverage: 34%
-# Project Title
+**STORE SIMULATION
 
 This project is a simulation of a store environment where users can input details of customers, items, orders and order items. 
 
@@ -8,56 +8,53 @@ This project is a simulation of a store environment where users can input detail
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ### Prerequisites
+The development of this project was done using MySQL Workbench 8.0 and Eclipse IDE for Java Developers 22-03. You will also require Maven to help install the program.
 
-What things you need to install the software and how to install them
+To download MySQL Workbench 8.0 please go here: https://dev.mysql.com/downloads/workbench/
 
-```
-Give examples
-```
+To download Eclipse go here: https://www.eclipse.org/downloads/packages/release/neon/2/eclipse-ide-java-developers
+
+To download Maven go here: https://maven.apache.org/download.cgi
+
+
+
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
+Maven installation instructions: https://maven.apache.org/install.html
 
-Say what the step will be
+MySQL Workbench installation instructions: https://www.simplilearn.com/tutorials/mysql-tutorial/mysql-workbench-installation
 
-```
-Give the example
-```
+Maven installation instructions: https://maven.apache.org/install.html
 
-And repeat
 
-```
-until finished
-```
 
-End with an example of getting some data out of the system or using it for a little demo
 
 ## Running the tests
 
-Explain how to run the automated tests for this system. Break down into which tests and what they do
+The tests in this package can be split into the following categories@
 
 ### Unit Tests 
 
-Explain what these tests test, why and how to run them
+These tests are given their own classes which are called Test classes. They are effectively simulations of the application classes which give a reliable indicator as to how well the application clases will work using pre-programmed "expected" data
 
 ```
-Give an example
+There are eight Test classes in this project, two each each connected SQL table.  
 ```
 
 ### Integration Tests 
-Explain what these tests test, why and how to run them
+Integration testing is more generic rather than focussed on a specific class. They test how well classes interact with each other. 
 
 ```
-Give an example
+Any test in this project that relies on the connection to the SQL database or has to import data from another class is an integration test. Most classes in this project have some degree of this. 
 ```
 
 ### And coding style tests
 
-Explain what these tests test and why
+Coding style testing is a lot more price, it check specific lines of code for bugs and errors. 
 
 ```
-Give an example
+Commenting out the bulk of the code in a class allows you to test specific lines of code to narrow down where exactly a bug might be.  
 ```
 
 ## Deployment
@@ -84,6 +81,4 @@ This project is licensed under the MIT license - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+Thanks to Pawel Stypulkowski and other members of my cohort for the help they have given me. 
